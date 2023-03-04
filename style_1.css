@@ -1,0 +1,303 @@
+body{
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(54 53 67);
+    width: 92%;
+    margin: 0px;
+    padding: 0px;
+}
+.Main{
+    position: relative;
+    left: 6px;
+}
+.text_color{
+    color: #b1b0c9;
+    
+}
+h3.numb_yel {
+    color: #ffc107;
+
+}
+
+/* Emoji+Name */
+div.first_step{
+    
+    display: flex;
+    position: relative;
+    left: 90px;
+    top: 30px;
+}
+div.emoji  {
+    display: flex;
+    padding-right:30px ;    
+    } 
+   
+div p.emoji_name{
+    padding-left: 5px
+      
+}
+div img.emoji_smile{
+    height: 40px;
+    background-color: aqua;
+}
+     /* rght logo  */
+div.right_logo
+{
+    display: flex;
+    position: relative;
+    left: -344px;
+    height: 36px;
+    
+}
+.right_logo_1{
+
+    padding-right: 20px;
+    
+}
+.right_logo_2{
+
+    padding-right: 20px;
+}
+
+   /* Menu_lst */
+
+ul.menu_lst{
+    list-style: none;
+    display:flex;
+    padding-right:550px ; 
+   }
+
+ul.menu_lst li{ 
+padding-left: 40px   ;
+}
+
+
+/* second_step */
+div.second_step{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    bottom: -100px;
+    left: 90px;
+}
+/* fist_col of 2nd step */
+div.first_col_2{
+    
+    width: 3000px;
+}
+
+p.headr_start{
+    position: relative;
+    left: 10px;
+    font-size: 60px;
+    font-weight: lighter;
+    color: #b1b0c9;    
+}
+.sub_head{
+    position: relative;
+    top:-65px;
+    font-size:  79px;
+    font-family: monospace;
+}
+.y-line{
+    position: relative;
+    width: 155px;
+    left: -192px;
+    top:-104px;
+    border-color: #ffc107;
+    border-width: 2px;
+    
+
+}
+.h_para{
+    position: relative;
+    top:-104px;
+    width: 200px;
+    font-size: 14px;
+    color: #b1b0c9;
+}
+/* 2nd col of 2nd step*/
+.man_pic{
+    position: relative;
+    left: -220px;
+    top: 30px;
+    
+
+}
+/* 3rd_col of 2nd step*/
+.third_col_2{
+position: relative;
+left:-314px;
+width: 1000px;
+bottom: -18px;
+}
+.third_col_2_p{
+    
+    text-align: justify;
+    font-size: 17px;
+    color: #b1b0c9;
+    font-family: math;
+    width: 263px;
+    height: 40px
+}
+.third_col_2_arrow_text{
+    color: #ffc107;
+}
+  div.third_col_2_arrow{
+    display: flex;
+    position: relative;
+    
+  }
+  img.third_col_2_arrow_right{
+    position: absolute;
+    left: 100px;
+    bottom: 15px;
+  }
+
+
+
+
+div.third_col_2_logo{
+    display: flex;
+    height: 20px;
+
+}
+img.third_col_2_logo_1{
+ 
+    padding-right: 20px;
+}
+
+img.third_col_2_logo_2{
+ 
+    padding-right: 20px;
+}
+img.third_col_2_logo_3{
+ 
+    padding-right: 20px;
+}
+
+/* third_step */
+
+div.third_step{
+    display: flex;
+    height: 50px;
+    bottom: -84px;
+    justify-content: center;
+    /* border: 1px solid #363543; */
+    padding:30px;
+    width: 860px;
+    position: relative;
+    left: 6%;
+    background-color:#3d3b52;
+    
+
+}
+img.third_step_logo_1{
+    padding-right: 50px;
+}
+img.third_step_logo_2{
+    padding-right: 50px;
+}
+img.third_step_logo_3{
+    padding-right: 50px;
+}
+
+/* 4th_setp */
+div.forth_step{
+    display: flex;
+    position: relative;
+    width: 408px;
+    bottom: -162px;
+    padding-left: 83px;
+    
+}
+h3.forth_step_col_1_heading{
+    font-size: 30px;
+    
+}
+div.forth_step_col_1_last{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.forth_step_col_1_last_1{
+    padding-right: 30px;
+}
+div.forth_step_col_1_last_3{
+    padding-right: 130px;
+}
+/* forth_step_col_2 */
+
+div.forth_step_col_2{
+    position: absolute;
+    right: -500px; 
+      
+}
+div.forth_step_col_2_pic_1{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+div.forth_step_col_2_pic_2{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.forth_step_col_2_pic_3{
+    display: flex;
+    padding-top: 10px;
+    
+}
+div.forth_step_col_2_txt_1{
+    position: relative;
+    left: 20px;
+}
+.arow_1{
+    position: absolute;
+    top: 30px;
+    right: -110px;
+}
+div.forth_step_col_2_txt_2{
+    position: relative;
+    left: 20px;
+}
+.arow_2{
+    position: absolute;
+    top: 30px;
+    right: -50px;
+}
+div.forth_step_col_2_txt_3{
+    position: relative;
+    left: 20px;
+}
+.arow_3{
+    position: absolute;
+    top: 30px;
+    right: -40px;
+}
+
+/* Circle */
+.fifth_step{
+    position: relative;
+    width: 450px;
+    height: 450px;
+    border-radius: 450px;
+    top: -869px;
+    left: 355px;
+    background-color: #2e2e2e96;
+    z-index: -1;
+
+}
+.sixth_step{
+    position: relative;
+    width: 1288px;
+    height: 509px;
+    z-index: -1;
+    background-color: #2e2e2e96;
+    bottom: 786px;
+
+}
+.forth_step_col_2_line{
+    
+    width:330px ;
+}
